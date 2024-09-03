@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Antes de roda este script, certifique-se de settar a permissão dele com:
-# chmod +x start_mysql.sh
+# chmod +x docker_cleanup.sh
 
 # Parar todos os containers em execução:
 CONTAINERS=$(docker ps -q)
