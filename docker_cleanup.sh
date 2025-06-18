@@ -32,3 +32,6 @@ docker volume prune -f
 
 # Remover todos as redes ociosas:
 docker network prune -f
+
+# Limpeza geral:
+docker system prune -f
